@@ -32,7 +32,7 @@ public class VideoChatActivity extends AppCompatActivity implements Session.Sess
 
     private static final String API_KEY="46843404";
     private static final String SESSION_ID="2_MX40Njg0MzQwNH5-MTYwODI4MDUwMDg4Mn5zbUptUmlWSk16ZTRERmJ5K2dHMGRyU25-fg";
-    private static final String TOKEN="T1==cGFydG5lcl9pZD00Njg0MzQwNCZzaWc9MjcyYTExY2UyNjhiNmY4NDc1MTA1YjRmMDFlMTFmODZiZDhkNTQxYjpzZXNzaW9uX2lkPTJfTVg0ME5qZzBNelF3Tkg1LU1UWXdPREk0TURVd01EZzRNbjV6YlVwdFVtbFdTazE2WlRSRVJtSjVLMmRITUdSeVUyNS1mZyZjcmVhdGVfdGltZT0xNjA4MjgwNTE0Jm5vbmNlPTAuMjk1NzIyMzU3ODk5NTQyMDQmcm9sZT1wdWJsaXNoZXImZXhwaXJlX3RpbWU9MTYxMDg3MjUxNCZpbml0aWFsX2xheW91dF9jbGFzc19saXN0PQ==";
+    private static final String TOKEN="";
     private static final String LOG_TAG=VideoChatActivity.class.getSimpleName();
     private static final int RC_VIDEO_PERMISSIONS=124;
     private ImageView cancel_call_btn;
