@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:layout_marginTop="2dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="#101010"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout
+        android:id="@+id/cardView_contact_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.abdularis.civ.CircleImageView
+            android:id="@+id/find_user_contact_imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            app:highlightEnable="true"
+            app:strokeWidth="2dp"
+            app:highlightColor="@color/colorPrimaryDark"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/profile_image"
+            app:strokeColor="#FFF"/>
+
+        <TextView
+            android:id="@+id/find_user_contact_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/find_user_contact_imageView"
+            android:padding="5dp"
+            android:text="Hello"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/roboto_slab" />
+
+        <Button
+            android:id="@+id/videocall_btn_contact"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/find_user_contact_username"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/ic_baseline_videocam_24"
+            android:drawableTint="@color/text_color"
+            android:foreground="@drawable/ic_baseline_videocam_24"
+            android:foregroundTint="#555555"
+            android:padding="4dp" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

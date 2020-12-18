@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696691770325",
+    "firebase_url": "https://video-meet-caeb4.firebaseio.com",
+    "project_id": "video-meet-caeb4",
+    "storage_bucket": "video-meet-caeb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696691770325:android:33269dab054b567ab3f35c",
+        "android_client_info": {
+          "package_name": "com.yashraj.videomeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696691770325-fslld4cqvg7v7k4d7oh34d8g81nsvt3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yashraj.videomeet",
+            "certificate_hash": "fc9cfcec49051aa48a54b3118848ae51534622cb"
+          }
+        },
+        {
+          "client_id": "696691770325-v1ps3n02gni2hk8l9veb6cctpp3gtj0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ-_byeTLkwMwY3Y5uLv4EMUGGWe4zW2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696691770325-v1ps3n02gni2hk8l9veb6cctpp3gtj0o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
